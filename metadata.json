@@ -1,0 +1,6 @@
+{
+  "name": "Industrial Design Portfolio",
+  "description": "Un portfolio profesional interactivo para un diseñador industrial, destacando el proceso creativo desde bocetos a mano alzada hasta renders fotorrealistas de alta gama.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
