@@ -75,22 +75,22 @@ export default function SketchRenderSlider({
         onMouseDown={handleMouseDown}
         onTouchStart={handleTouchStart}
       >
-        {/* Sketch Image (Background Base) */}
+        {/* Render Image (Background Base) */}
         <img
-          src={sketchUrl}
-          alt="Conceptual Sketch"
+          src={renderUrl}
+          alt="Final Render"
           className="absolute inset-0 w-full h-full object-cover pointer-events-none"
           referrerPolicy="no-referrer"
         />
 
-        {/* Render Image (Foreground overlay with clip-path) */}
+        {/* Sketch Image (Foreground overlay with clip-path) */}
         <div
           className="absolute inset-0 w-full h-full overflow-hidden pointer-events-none"
           style={{ clipPath: `polygon(0 0, ${sliderPosition}% 0, ${sliderPosition}% 100%, 0 100%)` }}
         >
           <img
-            src={renderUrl}
-            alt="Final Render"
+            src={sketchUrl}
+            alt="Conceptual Sketch"
             className="absolute inset-0 w-full h-full object-cover pointer-events-none"
             style={{ width: containerRef.current?.getBoundingClientRect().width }}
             referrerPolicy="no-referrer"
