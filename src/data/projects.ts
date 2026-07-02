@@ -1,4 +1,10 @@
 import { Project, DesignerProfile } from '../types';
+import aetherRender from '../assets/images/aether_render.jpg';
+import aetherSketch from '../assets/images/aether_sketch.jpg';
+import koveRender from '../assets/images/kove_render.jpg';
+import koveSketch from '../assets/images/kove_sketch.jpg';
+import orbitRender from '../assets/images/orbit_render.jpg';
+import orbitSketch from '../assets/images/orbit_sketch.jpg';
 
 export const designerProfile: DesignerProfile = {
   name: "Gianluca Pasquinelli",
@@ -55,8 +61,8 @@ export const projects: Project[] = [
     brief: "Diseñar unos audífonos circumaurales inalámbricos que ofrezcan una comodidad acústica excepcional, un aislamiento acústico óptimo y una firma de diseño elegante y minimalista basada en materiales circulares.",
     problem: "Muchos audífonos de diadema del mercado actual sobrecargan la cabeza debido a una mala distribución del peso, o bien utilizan plásticos de un solo uso de baja calidad que envejecen mal estéticamente y dañan el planeta.",
     solution: "Aether introduce una diadema flotante de tensión progresiva y copas pivotantes de aluminio anodizado. Cada componente está diseñado para ser desmontable y reparable, utilizando almohadillas de cuero orgánico regenerativo de tacto ultra suave.",
-    sketchUrl: "/images/aether_sketch.jpg",
-    renderUrl: "/images/aether_render.jpg",
+    sketchUrl: aetherSketch,
+    renderUrl: aetherRender,
     sketchCaption: "Boceto inicial destacando el sistema de pivote ergonómico de 360 grados, la suspensión de diadema de tensión elástica, y el flujo de los cables internos integrados.",
     renderCaption: "Render final en KeyShot mostrando el acabado cepillado satinado, la costura de precisión de la piel y el ensamble impecable de los componentes acústicos.",
     cmf: [
@@ -103,8 +109,8 @@ export const projects: Project[] = [
     brief: "Reimaginar la cafetera de goteo manual para el hogar contemporáneo, convirtiendo el acto cotidiano de preparar café de especialidad en una experiencia escultórica, táctil y de altísima precisión.",
     problem: "Los métodos de vertido tradicionales (V60, Chemex) suelen ser inestables sobre la mesa, se enfrían rápidamente y carecen de un marco integrado que mantenga el ángulo y la altura de goteo óptimos.",
     solution: "Kove es una estación monolítica de goteo con base estabilizadora de terrazo de concreto, columnas de soporte de cerámica de doble pared para un aislamiento térmico sin rival, y un soporte flotante de bronce cepillado ajustable en altura.",
-    sketchUrl: "/images/kove_sketch.jpg",
-    renderUrl: "/images/kove_render.jpg",
+    sketchUrl: koveSketch,
+    renderUrl: koveRender,
     sketchCaption: "Líneas de construcción isométrica que analizan el centro de gravedad, el flujo gravitacional del líquido, y las proporciones áureas aplicadas a las columnas de cerámica.",
     renderCaption: "Render fotorrealista mostrando la espectacular textura granular del terrazo, la cerámica mate pulida a mano y el funnel de goteo de bronce cálido cepillado.",
     cmf: [
@@ -151,8 +157,8 @@ export const projects: Project[] = [
     brief: "Crear un proyector inteligente portátil para interiores que se aleje de la típica caja de plástico gris, integrándose en la decoración del hogar moderno como un objeto decorativo y acústico de alta calidad.",
     problem: "Los proyectores portátiles son difíciles de posicionar (requieren apilar libros, inclinar tripiés), tienen mala calidad de sonido integrada y lucen descontextualizados en una sala de estar moderna.",
     solution: "Un proyector esférico suspendido en un brazo gimbal de rotación omnidireccional. La esfera está envuelta en un tejido acústico de Kvadrat, que actúa como rejilla de un altavoz envolvente de 360°, y cuenta con una lente de vidrio templado de nivel óptico.",
-    sketchUrl: "/images/orbit_sketch.jpg",
-    renderUrl: "/images/orbit_render.jpg",
+    sketchUrl: orbitSketch,
+    renderUrl: orbitRender,
     sketchCaption: "Boceto a mano alzada e ideación con marcador Copic que estudia las articulaciones del gimbal metálico, la ventilación pasiva trasera y la rotación angular del eje central.",
     renderCaption: "Render fotorrealista de estilo de vida mostrando el proyector en un estante de madera de roble, destacando el contraste de textura entre el textil suave y el brazo de cobre satinado.",
     cmf: [
